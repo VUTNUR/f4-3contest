@@ -1,0 +1,25 @@
+.book-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.book-detail{
+  display: flex;
+  gap: 10px;
+}
+td{
+  border-right: 1px solid black;
+  /* border-collapse: collapse; */
+  padding: 5px;
+}
+.noRight{
+  border-right: none;
+}
+.buttons{
+  display: flex;
+  gap: 10px;
+  
+}
+.button{
+  text-decoration: none;
+  margin-left:auto ;
+}
